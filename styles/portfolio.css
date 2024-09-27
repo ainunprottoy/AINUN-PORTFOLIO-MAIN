@@ -1,0 +1,61 @@
+nav ul{font-size: 25px; list-style: none; display: flex; align-items: center;}
+nav{
+    display: flex; justify-content: space-between; align-items: center;
+}
+*{font-family: 'Belanosima', sans-serif;
+}
+.nav-title{color: black;
+    font-size: 45px;
+    font-weight: 800;
+    }
+.N{color: cadetblue;}
+nav li{margin-right:100px;}
+nav a{text-decoration: none;}
+.hireme{ font-size: 20px ;
+    width: 100px; text-align: center;
+height: 50px;
+border-radius: 20px; border:4px solid rgb(15, 186, 192) ;
+background: cadetblue;}
+a{color: cadetblue; text-decoration: none;}
+a:hover{color: khaki;}
+.hire{color: black; margin-top: 50px;}
+.header{background-color: azure;background-image: url("../media/developer.png");  background-repeat: no-repeat; background-position: top left ; padding-left: 90px; background-size: 55px; }
+.banner{padding: 0px 30px 0px 30px; display: flex; align-items: center; justify-content: space-between;}
+.exp{ font-size: 15px ;
+    width: 85px; text-align: center;
+height: 40px;
+border-radius: 20px; border:4px solid rgb(15, 186, 192) ;
+background: cadetblue;}
+.me{width: 430px;
+    height: 400px; background-color:bisque;}
+.about{width: 900px;
+    height: 220px;
+    flex-shrink: 0;
+border: 4px solid cadetblue;
+border-radius: 10px;
+background: khaki;
+padding: 30px 30px 30px 30px;
+margin: 50px 80px ;
+}
+.h{text-align: center;}
+.para{display: flex;
+text-align: center; justify-content: space-between;}
+.grey{color: gray;}
+.skills{justify-content: space-between;margin: 0px 100px 0px 100px; border: 2px solid cadetblue; padding: 10px 10px 10px 10px; background-color: khaki;}
+.my{text-align: center; color: gray; font-size: 40px;}
+.pp{border: 2px dotted black;}
+.skills-container{display: flex; padding: 0px 0px 30px 0px;}
+footer{text-align: center; background-image: url(../media/web\ cover.jpg) ;height: 160px;}
+main{background-color: rgb(227, 248, 248);}
+.fb{text-align: center; display: inline;}
+.msg{border: 4px solid black; background-color: azure; }
+.P{border: 4px solid black; background-color: azure;}
+.A{border: 4px solid black; background-color: azure;}
+
+.developer{height: 400px;}
+
+body{margin: 0 auto;}
+
+.centre{display: flex;
+justify-content: center;
+align-items: center;}

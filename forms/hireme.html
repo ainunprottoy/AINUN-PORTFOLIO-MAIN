@@ -1,0 +1,26 @@
+<h1>Payment form</h1><br>
+<fieldset><legend>INFORMATIONS</legend>
+  <form>
+    <p>
+      1.*NAME: 
+      <input type="text" id="fname" name="firstname" placeholder="your name" required>
+    </p>
+    2.*GENDER:
+    <p>
+      *MALE<input type="radio" name="gender" id="male" required>
+      *FEAMALE<input type="radio" name="gender" id="female" required>
+    </p>
+    <p>
+      3.Address: <textarea name="address" id="address" cols="50" rows="2" placeholder="house,street,area"></textarea>
+     <br> 4.*EMAIL: <input name="email" id="email" type="email" required placeholder="your email">
+     <br> 5.*PINCODE: <input name="PINCODE" id="PINCODE" type="number" required placeholder="enter your pin here"> 
+     <br> 7.*PAYMENT METHOD: <select name="Payment" id="Payment" required>
+        <option value="">-SELECT PAYMENT METHOD-</option>
+        <option value="BKASH">BKASH</option>
+        <option value="NAGAD">NAGAD</option>
+        <option value="ROCKET">ROCKET</option>
+        <option value="CREDIT CARD">CARD</option>
+      </select><hr>
+      <input type="submit" value="PROCEED TO PAY">
+    </p>
+  </form>
